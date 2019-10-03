@@ -1,9 +1,9 @@
 def base_hash
-	hash = {}
+	monopoly = {:tier1 => {}}
 end
 
 def monopoly_with_second_tier
-  hash = {
+  monopoly = {
     :tier1 => {},
     :tier2 => {}
   }
